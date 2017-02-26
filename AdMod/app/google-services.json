@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "392028049261",
+    "firebase_url": "https://admod-khoapham.firebaseio.com",
+    "project_id": "admod-khoapham",
+    "storage_bucket": "admod-khoapham.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392028049261:android:aa9a62159da1ac3f",
+        "android_client_info": {
+          "package_name": "com.hcmus.yennhi0105.admod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392028049261-2cbr8iou533qqt5s888spftk0vhree3q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hcmus.yennhi0105.admod",
+            "certificate_hash": "cbda57cc1e199a254c70438954851caace5d5c70"
+          }
+        },
+        {
+          "client_id": "392028049261-pi1uutkp62fhq0q84eq6r0k6ngurkptu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzzWgbdRKdbYwRnoQVyCRZnv4iWm-rGCI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392028049261-pi1uutkp62fhq0q84eq6r0k6ngurkptu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    // item cuoi cung se duoc hien thi, code chạy theo thu tu
+    // gán id để android biết phần nào là progress, second progress
+
+    <item android:id="@android:id/background">
+        <!--<color android:color="#2d2d2d"></color>-->
+            <shape android:shape="rectangle">
+                <stroke android:color="#e94e4e"
+                    android:width="2dp"></stroke>
+                <corners android:radius="10dp" />
+                <solid android:color="#5d5d5e"/>
+            </shape>
+    </item>
+
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape android:shape="rectangle">
+                <stroke android:color="#e94e4e"
+                    android:width="2dp"></stroke>
+                <corners android:radius="10dp" />
+                <solid android:color="#fe6c9eed"/>
+            </shape>
+        </clip>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <stroke android:color="#e94e4e"
+                    android:width="2dp"></stroke>
+                <corners android:radius="10dp" />
+                <solid android:color="#1e1ee6"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

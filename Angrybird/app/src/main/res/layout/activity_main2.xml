@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b1b1f4"
+    tools:context="com.hcmus.tranngocyennhi.angrybird.Main2Activity">
+
+
+    <!--Khi vượt quá thì có thanh cuộn-->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:id="@+id/myTableImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TableLayout>
+    </ScrollView>
+</RelativeLayout>

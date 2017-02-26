@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--Đặt id để bắt sự kiện nhé!-->
+    <item android:id="@+id/menuSetting"
+        android:title="Setting" android:orderInCategory="1"></item>
+
+    <item android:id="@+id/menuShare"
+        android:title="Share" android:orderInCategory="3"></item>
+
+    <!--Để android:showAsAction="always" sẽ có lỗi: Thêm thư viện xmlns:app="http://schemas.android.com/apk/res-auto" và sử dụng app:showAsAction để sửa-->
+    <item android:id="@+id/menuReload"
+
+        android:title="Reload"
+
+        android:icon="@drawable/replay"
+        app:showAsAction="always"
+
+        android:orderInCategory="2"></item>
+
+</menu>

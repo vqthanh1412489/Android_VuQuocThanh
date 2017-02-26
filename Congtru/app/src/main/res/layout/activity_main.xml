@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_weight="7"
+        android:text="00"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textSize="150sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/textViewSo" />
+
+   <LinearLayout
+       android:layout_weight="3"
+       android:layout_width="match_parent"
+       android:layout_height="0dp">
+
+       <Button
+           android:fontFamily="serif"
+           android:background="#8795ed"
+           android:textSize="100sp"
+           android:text="+"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:id="@+id/buttonCong"
+           android:layout_weight="1" />
+
+       <Button
+           android:fontFamily="serif"
+           android:background="#f26e74"
+           android:textSize="100sp"
+           android:text="-"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:id="@+id/buttonTru"
+           android:layout_weight="1" />
+   </LinearLayout>
+</LinearLayout>

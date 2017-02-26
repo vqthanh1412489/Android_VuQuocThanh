@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+    <!--Từ 0 - 1-->
+    <!--android:repeatMode = "reverse" Kiểu chạy vòng lại (Mượt hơn):-->
+    <!--android:repeatCount = "infinite" : lặp vô tận (Có thể thay số vào đó)-->
+    <!--android:duration = "1000" : Thời gian mờ đi, sáng lại-->
+    <!--android:fillAfter="true" : giữ nguyên vị trí kết thúc-->
+    <!--android:startOffset = "3000": Thòi gian trễ giữa những lần chuyển-->
+    <alpha android:fromAlpha="1"
+        android:toAlpha="0.2"
+        android:duration = "1000"
+        android:repeatCount = "2"
+        android:repeatMode = "reverse"
+        android:startOffset = "1000"
+        >
+    </alpha>
+</set>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#151514">
+
+    <ImageView
+        android:padding="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageViewPicture" />
+
+    <TextView
+        android:textColor="#d9cc13"
+        android:text="Name"
+        android:textSize="25sp"
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textViewName"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageViewPicture"
+        android:layout_toEndOf="@+id/imageViewPicture" />
+
+    <TextView
+        android:textSize="15sp"
+        android:textColor="#e1d6d6"
+        android:fontFamily="serif"
+        android:text="Mô tả"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewName"
+        android:layout_alignLeft="@+id/textViewName"
+        android:layout_alignStart="@+id/textViewName"
+        android:id="@+id/textViewMota" />
+
+
+
+    <TextView
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#18ea0d"
+        android:text="Money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewMoney"
+        android:layout_below="@+id/textViewMota"
+        android:layout_alignLeft="@+id/textViewMota"
+        android:layout_alignStart="@+id/textViewMota" />
+</RelativeLayout>
